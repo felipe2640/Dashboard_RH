@@ -1,11 +1,5 @@
 import React, { ReactNode } from "react";
-import {
-  Box,
-  Flex,
-  Spacer,
-  useColorModeValue,
-  useDisclosure,
-} from "@chakra-ui/react";
+import { Box, useColorModeValue, useDisclosure } from "@chakra-ui/react";
 import SidebarContent from "./SidebarContent";
 import MobileNav from "./MobileNav";
 

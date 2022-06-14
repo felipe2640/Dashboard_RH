@@ -1,15 +1,4 @@
-import {
-  Box,
-  CloseButton,
-  Text,
-  Flex,
-  useColorModeValue,
-  BoxProps,
-} from "@chakra-ui/react";
-
-// interface SidebarProps extends BoxProps {
-//   onClose: () => void;
-// }
+import { Box, Text, Flex, useColorModeValue } from "@chakra-ui/react";
 
 const SidebarContent = ({ ...rest }) => {
   return (

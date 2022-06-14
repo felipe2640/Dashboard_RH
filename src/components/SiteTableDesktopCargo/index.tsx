@@ -15,27 +15,16 @@ import {
   FormLabel,
   Stack,
   Heading,
-  InputGroup,
-  InputLeftElement,
   Button,
   Select,
-  Box,
   HStack,
   Spacer,
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
-  TabPanel,
-  StackProps,
 } from "@chakra-ui/react";
-import { Search2Icon } from "@chakra-ui/icons";
+
 import { useTable, useFilters, useSortBy, usePagination } from "react-table";
-import ButtonSecondaryMenu from "../ButtonSecondaryMenu";
+
 import InputSearch from "../input";
 import TableDesktop from "./TableDesktop";
-import { GetStaticProps } from "next";
-import { api } from "../../lib/api";
 
 type Props = {
   items: any;

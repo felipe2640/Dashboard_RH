@@ -1,21 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NextLink from "next/link";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
-  Box,
-  Avatar,
-  HStack,
-  Text,
-  Flex,
-  Heading,
-  Button,
-  Center,
-  Divider,
-} from "@chakra-ui/react";
+import { Box, Heading, Divider } from "@chakra-ui/react";
 import { PlusSquareIcon } from "@chakra-ui/icons";
 import InputSearch from "../input";
 import MenuMobile from "../MenuMobile";
@@ -52,9 +37,9 @@ const SiteTable = ({ items, ...rest }: Props) => {
           Lista de {parentName}
         </Heading>
         {parentName == "Colaborador" ? (
-          <SiteTableMobileColaboradores items={items} />
+          <SiteTableMobileColaboradores items={items} value={[]} />
         ) : (
-          <SiteTableMobileCargo items={items} />
+          <SiteTableMobileCargo items={items} name={""} department={""} />
         )}
       </Box>
     </>

@@ -15,16 +15,19 @@ import {
 } from "@chakra-ui/react";
 import { PlusSquareIcon } from "@chakra-ui/icons";
 import React from "react";
+import { Companys } from "../../Interface";
 
 type Props = {
   items: any;
+  value: Companys[];
 };
 
-const SiteTableMobileColaboradores = ({ items, ...rest }: Props) => {
+const SiteTableMobileColaboradores = ({ items, value, ...rest }: Props) => {
   const data = items[0].items;
+
   return (
     <>
-      {Object.entries(data).map(([key, value]) => {
+      {Object.entries(data as unknown as Companys[]).map(([key, value]) => {
         return (
           <Accordion
             bg="white"
@@ -40,7 +43,7 @@ const SiteTableMobileColaboradores = ({ items, ...rest }: Props) => {
                   <HStack alignItems="flex-center" ml="2" mt="2">
                     <Avatar
                       size={"sm"}
-                      name="Luiz Zlochevsky"
+                      name={value.name}
                       color="#34423D"
                       bg="#B5F1DD"
                     />

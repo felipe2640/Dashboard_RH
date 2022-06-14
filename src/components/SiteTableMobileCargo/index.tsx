@@ -19,16 +19,17 @@ import React from "react";
 
 type Props = {
   items: any;
+  name: string;
+  department: string;
 };
 
 const SiteTableMobileCargo = ({ items, ...rest }: Props) => {
   const data = items[1].roles;
   const [flag, setFlag] = useBoolean();
-  console.log(flag);
 
   return (
     <>
-      {Object.entries(data).map(([key, value]) => {
+      {Object.entries(data as unknown as any[]).map(([key, value]) => {
         return (
           <Accordion
             bg="white"

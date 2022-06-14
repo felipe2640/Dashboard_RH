@@ -3,17 +3,12 @@ import {
   Text,
   Flex,
   useColorModeValue,
-  FlexProps,
   VStack,
   HStack,
   Menu,
   Avatar,
   Spacer,
 } from "@chakra-ui/react";
-
-// interface MobileProps extends FlexProps {
-//   onOpen: () => void;
-// }
 
 const MobileNav = ({ ...rest }) => {
   return (

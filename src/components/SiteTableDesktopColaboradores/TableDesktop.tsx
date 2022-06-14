@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Table, Thead, Tbody, Tr, Th, Td, TableProps } from "@chakra-ui/react";
 
 interface SiteTableDesktopProps extends TableProps {
@@ -17,7 +17,6 @@ const TableDesktop = ({
   page,
   ...rest
 }: SiteTableDesktopProps) => {
-  const type = "nome";
   return (
     <>
       <Table {...getTableProps()}>

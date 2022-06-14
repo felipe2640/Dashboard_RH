@@ -1,8 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import Nav from "../components/Nav";
-
-import SiteTable from "../components/SiteTableDesktopColaboradores";
-import { Box, ChakraProvider, Flex, Spacer } from "@chakra-ui/react";
+import { Box, Flex, Spacer } from "@chakra-ui/react";
 import TabsDesktop from "../components/TabsDesktop";
 import { api } from "../lib/api";
 import { GetStaticProps } from "next";

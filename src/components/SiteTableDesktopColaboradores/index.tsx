@@ -1,33 +1,11 @@
 import React, { useState } from "react";
 import {
-  Table,
-  Thead,
-  Tbody,
-  Tr,
-  Th,
-  Td,
-  chakra,
-  Text,
-  Avatar,
-  Badge,
-  FormControl,
-  Input,
-  FormLabel,
   Stack,
   Heading,
-  InputGroup,
-  InputLeftElement,
   Button,
   Select,
-  Box,
   HStack,
   Spacer,
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
-  TabPanel,
-  StackProps,
 } from "@chakra-ui/react";
 import { useTable, useFilters, useSortBy, usePagination } from "react-table";
 import InputSearch from "../input";
