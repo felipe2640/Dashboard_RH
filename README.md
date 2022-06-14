@@ -34,8 +34,8 @@
           ><img
             src="/img/Mobile.PNG"
             alt="Screenshot of Mobile dashboard"
-            width="300"
-            height="300"
+            width="150"
+            
             data-canonical-src="/img/Mobile.PNG"
             style="max-width: 100%" /></a
         ><br /><sup></sup>
