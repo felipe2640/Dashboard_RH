@@ -34,8 +34,11 @@
           ><img
             src="/img/Mobile.PNG"
             alt="Screenshot of Mobile dashboard"
+<<<<<<< HEAD
             width="150"
-            l
+=======
+            width="150"          
+>>>>>>> 5d999c7f20094a1c25b8ec7b7c76c93e0a17fb46
             data-canonical-src="/img/Mobile.PNG"
             style="max-width: 100%" /></a
         ><br /><sup></sup>
@@ -52,7 +55,7 @@
 
 ```bash
 # Clone this repositories
-$ git clone <https://github.com/felipe2640/PedidoPagoDesafio.git>
+$ git clone <https://github.com/felipe2640/Dashboard_RH.git>
 
 # Access the project folder in terminal/cmd
 $ cd PedidoPagoDesafio
