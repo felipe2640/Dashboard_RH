@@ -34,14 +34,10 @@
           ><img
             src="/img/Mobile.PNG"
             alt="Screenshot of Mobile dashboard"
-<<<<<<< HEAD
             width="150"
-=======
             width="150"          
->>>>>>> 5d999c7f20094a1c25b8ec7b7c76c93e0a17fb46
-            data-canonical-src="/img/Mobile.PNG"
-            style="max-width: 100%" /></a
-        ><br /><sup></sup>
+        </a>
+        <br /><sup></sup>
       </td>
     </tr>
   </tbody>
